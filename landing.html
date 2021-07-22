@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <title>Clinical Care System</title>
+
+    <style>
+        * {
+            font-size: 15px;
+        }
+        nav {
+            padding-left: 30px;
+          
+        }
+
+        /* nav > h1 {
+            font-size: 100px;
+        } */
+
+        .section {
+            padding: 30px 40px;
+        }
+
+        .row {
+            margin-bottom: 25px;
+        }
+
+        hr {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            font-size: 20px;
+            width: 100%;
+            height: 50px;
+            background-color: ;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm|md|lg|-xl navbar-dark|light" style="background-color: #e3f2fd;">
+        <h1><a class="navbar-brand" href="index.html">Clinical Care System</a></h1>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="#">Action 1</a>
+                        <a class="dropdown-item" href="#">Action 2</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="d-flex my-2 my-lg-0">
+                <input class="form-control me-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="section col-md-9 bg-light">
+            <h4 class="text-center">You are now registered!</h4>
+            <p class="text-center fst-italic">
+                You submitted the following information.
+            </p>
+        <hr>
+            <table class="table table-striped|sm|bordered|hover|inverse table-inverse table-responsive">
+                <thead class="thead-inverse|thead-default">
+                    <tr>
+                        <th colspan=3 class="text-center">Medical Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Name</td>
+                        <td colspan=2>Pedro Penduko</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Date of Birth</td>
+                        <td colspan=2>December 25, 1970</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Sex</td>
+                        <td colspan=2>Male</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Contact Number</td>
+                        <td colspan=2>09281234567</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Email</td>
+                        <td colspan=2>p.penduko@gmail.com</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Address</td>
+                        <td colspan=2>Pinagbuhatan, Pasig City 1600</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Marital Status</td>
+                        <td colspan=2>Married</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Weight</td>
+                        <td colspan=2>80 kg</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Height</td>
+                        <td colspan=2>170 cm</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Taking medications?</td>
+                        <td colspan=2>No</td> 
+                    </tr>
+
+                    <tr>
+                        <td scope="row">Contact Person</td>
+                        <td colspan=2>Pedra Penduko</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Relationship</td>
+                        <td colspan=2>Wife</td> 
+                    </tr>
+                    <tr>
+                        <td scope="row">Contact Number</td>
+                        <td colspan=2>09281234568</td> 
+                    </tr>
+                
+                </tbody>   
+            </table>
+        </div>
+
+        <div class="section col-md-3 bg-info text-white text-left">
+            <div class="row">
+                 <div class="col-md-12">
+                     <a href="index.html"><h2>Home</h2></a>
+                 </div>  
+                 <div class="col-md-12">
+                     <a href="flowchart.html"><h5>Patient's Flowchart</h5></a> 
+                 </div>
+                 <div class="col-md-12">
+                     <a href="jdgalvezexercise0721.html"><h5>Registration Form</h5></a>
+                 </div>  
+            </div>
+         </div>
+    </div>
+   
+</body>
+</html>
